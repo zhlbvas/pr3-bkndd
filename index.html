@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Тур-гид по Астане</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Тур-гид по Астане</h1>
+    <p>Интересные места столицы Казахстана</p>
+</header>
+
+<main>
+    <h2>Места для посещения</h2>
+
+    <div id="loader">Загрузка...</div>
+
+    <div id="error" hidden>
+        <p>Не удалось загрузить данные.</p>
+        <button id="retry">Повторить</button>
+    </div>
+
+    <div id="empty" hidden>
+        <p>Мест для посещения пока нет.</p>
+    </div>
+
+    <div id="cards" class="cards" hidden></div>
+</main>
+
+<footer>
+    <p>© 2026 Тур-гид по Астане</p>
+</footer>
+
+<script src="app.js"></script>
+
+</body>
+</html>
